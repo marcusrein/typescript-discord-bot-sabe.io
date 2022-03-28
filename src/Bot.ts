@@ -1,8 +1,7 @@
 import { Client, ClientOptions } from "discord.js";
 import interactionCreate from "./listeners/interactionCreate";
 import ready from "./listeners/ready";
-
-const token = ""; // add your token here
+import { token } from "./secret_token";
 
 console.log("Bot is starting...");
 
