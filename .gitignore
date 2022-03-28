@@ -1,2 +1,2 @@
 node_modules/
-src/secret_token
+src/secret_token.ts
