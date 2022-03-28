@@ -8,7 +8,6 @@ export default (client: Client): void => {
 		}
 	});
 };
-
 const handleSlashCommand = async (
 	client: Client,
 	interaction: BaseCommandInteraction
